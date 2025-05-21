@@ -45,18 +45,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials" style="white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem;">Sobre mim</a>
+          <li class="nav-item"><a class="nav-link" href="#testimonials"
+              style="white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem;">Sobre mim</a>
           </li>
         </ul>
         <a href="https://wa.me/554299978160?text=Olá!%20Gostaria%20de%20ajuda%20jurídica." target="_blank"
-        style="text-decoration: none;">
-        <button type="button" class="rounded-pill btn-rounded" style="white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem;">
-        Contato
-        <span><i class="fab fa-whatsapp"></i></span>
-        </button>
+          style="text-decoration: none;">
+          <button type="button" class="rounded-pill btn-rounded"
+            style="white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem;">
+            Contato
+            <span style="
+          background-color: #25D366; /* verde do WhatsApp */
+          border-radius: 50%;
+          padding: 0.4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        ">
+              <i class="fab fa-whatsapp" style="color: white;"></i>
+            </span>
+          </button>
+      
         </a>
       </div>
-      
     </div>
   </nav>
 
@@ -158,13 +169,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li>Pedidos de liberdade</li>
           </ul>
           
-          <!--
+          
           <a href="https://wa.me/554299978160?text=Olá!%20Gostaria%20de%20ajuda%20jurídica." target="_blank" style="text-decoration: none;">
           <button type="button" class="rounded-pill btn-rounded border-primary">Converse com um especialista
-            <span><i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i></span>
+            <span style="
+          background-color: #25D366; /* verde do WhatsApp */
+          border-radius: 50%;
+          padding: 0.4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "><i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i></span>
           </button>
           </a>
-          -->
+          
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end d-sm-block">
@@ -198,13 +216,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li>Usucapião</li>
             </ul>
           
-          <!--
+          
           <a href="https://wa.me/554299978160?text=Olá!%20Gostaria%20de%20ajuda%20jurídica." target="_blank" style="text-decoration: none;">
           <button type="button" class="rounded-pill btn-rounded border-primary">Converse com um especialista
-            <span><i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i></span>
+            <span style="
+          background-color: #25D366; /* verde do WhatsApp */
+          border-radius: 50%;
+          padding: 0.4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "><i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i></span>
           </button>
           </a>
-          -->
+          
         </div>
       </div>
     </div>
@@ -264,9 +289,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-uppercase" style="font-size: 3.6rem;">faq</h1>
+      <h1 class="display-3 fw-bold" style="font-size: 3.6rem;">Perguntas Frequentes</h1>
       <div class="heading-line"></div>
-      <p class="lead">Perguntas feitas com frequência</p>
     </div>
   
 
@@ -278,62 +302,330 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
           <div class="accordion-item shadow mb-3">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Em quanto tempo preciso contratar um advogado após uma prisão?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>O ideal é o mais rápido possível.</strong> Um advogado pode atuar desde a fase do flagrante, evitando abusos e buscando medidas como liberdade provisória.
-              </div>
-            </div>
-          </div>
+    <h2 class="accordion-header" id="heading1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        O que é uma prisão em flagrante?
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Ocorre quando alguém é preso no momento em que está cometendo um crime, logo após ou é encontrado com objetos que indicam a prática do crime, seja por autoridades policiais ou qualquer pessoa. Geralmente a prisão em flagrante é realizada pela polícia militar.
+      </div>
+    </div>
+  </div>
+
+  <!-- Os próximos 23 itens seguem com ID incrementado: heading2, collapse2, etc -->
+  <!-- Exemplo do segundo item -->
+  <div class="accordion-item shadow mb-3">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        Como um advogado pode ajudar em casos de prisão em flagrante e audiência de custódia?
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Atuando na defesa técnica desde o início, garantindo direitos, analisando a legalidade da prisão e buscando a liberdade do cliente.
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading3">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+      O que devo fazer se um familiar for preso em flagrante?
+    </button>
+  </h2>
+  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Entrar imediatamente em contato com um advogado criminalista de confiança para garantir os direitos do seu familiar preso e acompanhar os procedimentos legais. O advogado pode questionar a legalidade da prisão, acompanhar os depoimentos, garantir os direitos do preso e atuar de forma rápida para tentar sua liberação.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading4">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+      Em quanto tempo preciso contratar um advogado após uma prisão em flagrante?
+    </button>
+  </h2>
+  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      O ideal é o mais rápido possível. Assim que é preso, o indivíduo é conduzido à delegacia de polícia, onde será realizado o procedimento padrão, no qual é importantíssimo o acompanhamento de um advogado criminalista. É possível que caso haja uma demora significativa para contatar o advogado uma parte deste procedimento já tenha sido realizada sem que o advogado pudesse acompanhá-lo.
+    </div>
+  </div>
+</div>
               
 
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading5">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+      Quais direitos a pessoa presa tem durante o flagrante?
+    </button>
+  </h2>
+  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Direito ao silêncio, à presença de advogado, à comunicação com a família e a ser apresentada ao juiz em 24h (ainda que, na prática, muitas vezes este prazo não seja rigorosamente respeitado).
+    </div>
+  </div>
+</div>
 
-          <div class="accordion-item shadow mb-3">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                O que um advogado pode fazer por mim antes da audiência?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Ele pode analisar o inquérito, contestar provas, apresentar documentos e preparar sua versão dos fatos, fortalecendo sua defesa.
-              </div>
-            </div>
-          </div>
-             
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading6">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+      O que é audiência de custódia?
+    </button>
+  </h2>
+  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      É um procedimento obrigatório em que a pessoa presa em flagrante é levada à presença de um juiz. O objetivo é avaliar se a prisão foi legal, se houve abusos e se é necessário manter a prisão ou se é caso de permitir a liberdade do indivíduo.
+    </div>
+  </div>
+</div>
 
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading7">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+      A polícia pode prender alguém sem mandado judicial?
+    </button>
+  </h2>
+  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim, em caso de flagrante delito a prisão pode ser feita sem mandado.
+    </div>
+  </div>
+</div>
 
-          <div class="accordion-item shadow mb-3">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Posso responder ao processo em liberdade?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Sim, em muitos casos. O advogado pode entrar com pedidos de liberdade provisória, habeas corpus ou medidas cautelares alternativas à prisão.
-              </div>
-            </div>
-          </div>
-              
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading8">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+      É possível entrar com habeas corpus após a prisão?
+    </button>
+  </h2>
+  <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim. O habeas corpus pode ser usado para contestar prisões ilegais ou abusivas. Um advogado pode entrar com este pedido para buscar a liberdade da pessoa presa, caso identifique qualquer irregularidade.
+    </div>
+  </div>
+</div>
 
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading9">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+      Quais são os possíveis resultados de uma audiência de custódia?
+    </button>
+  </h2>
+  <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Liberdade provisória, com ou sem condições (como uso de tornozeleira eletrônica ou proibição de sair da cidade, por exemplo);<br><br>
+      Conversão da prisão em preventiva, mantendo o acusado preso enquanto aguarda a conclusão do processo ou até que sobrevenha nova decisão determinando que seja solto;<br><br>
+      Relaxamento da prisão, se for considerada ilegal.
+    </div>
+  </div>
+</div>
 
-          <div class="accordion-item shadow mb-3">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Quais os direitos de alguém acusado injustamente?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Todo acusado tem direito à ampla defesa, ao contraditório e à presunção de inocência. O advogado atuará para provar a inocência e reparar eventuais danos morais.
-              </div>
-            </div>
-          </div>
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading10">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+      Por que é importante ter um advogado desde o início em um processo em que sou acusado de cometer um crime?
+    </button>
+  </h2>
+  <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      O advogado atua desde os primeiros momentos do caso, garantindo que os seus direitos sejam respeitados, acompanhando depoimentos, analisando provas e construindo uma defesa técnica eficaz. Uma atuação rápida pode evitar prisões desnecessárias e falhas graves no processo.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading11">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+      O advogado pode ajudar mesmo que a pessoa já esteja presa há algum tempo?
+    </button>
+  </h2>
+  <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim. O advogado pode entrar com pedidos de liberdade provisória, habeas corpus, revisar decisões anteriores e acompanhar o processo até o fim. Mesmo após uma condenação, ele pode recorrer para tentar reverter ou reduzir a pena.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading12">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+      O advogado pode atuar mesmo que o processo já esteja em andamento?
+    </button>
+  </h2>
+  <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim. Mesmo que o processo já tenha começado ou esteja próximo de uma sentença, um advogado pode assumir o caso, revisar tudo o que foi feito até então e apresentar novas estratégias de defesa, recursos ou medidas cabíveis.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading13">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+      Por que é importante fazer um contrato, mesmo em acordos entre conhecidos?
+    </button>
+  </h2>
+  <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Porque o contrato é a materialização do acordo. Muitas vezes se torna difícil, e até impossível, comprovar os termos de um “contrato de boca”, o que não ocorre nos contratos escritos. Mesmo entre amigos, parentes ou sócios de confiança, desentendimentos podem acontecer. Ter um contrato bem redigido ajuda a evitar conflitos, definir obrigações e garantir que os direitos de todos sejam respeitados.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading14">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+      O que pode acontecer se eu não fizer um contrato por escrito?
+    </button>
+  </h2>
+  <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sem contrato escrito, é muito difícil comprovar o que foi combinado. Em caso de disputa judicial, tudo pode se tornar um "palavra contra palavra", e você corre o risco de perder direitos ou não conseguir cobrar o que lhe é devido.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading15">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+      Posso usar modelos prontos da internet para fazer um contrato?
+    </button>
+  </h2>
+  <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Não é o ideal. Cada relação jurídica tem suas particularidades. Usar um modelo genérico pode deixar de fora cláusulas essenciais, abrir brechas para problemas futuros e até invalidar o contrato. O mais seguro é contar com um advogado para personalizar o documento.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading16">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+      Qual é o papel do advogado na elaboração de um contrato civil?
+    </button>
+  </h2>
+  <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      O advogado analisa os interesses das partes, prevê possíveis riscos, inclui cláusulas de proteção (como multas, garantias, prazos e penalidades), ajusta o contrato à legislação vigente e garante que ele seja claro, válido e eficaz juridicamente.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading17">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+      Um contrato bem feito evita processo judicial?
+    </button>
+  </h2>
+  <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim. Quando as obrigações estão bem definidas, as chances de conflito diminuem muito. E mesmo se houver disputa, um bom contrato facilita a solução, pois o juiz poderá usar o documento para decidir com mais clareza.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading18">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+      O que é uma ação de indenização por danos morais?
+    </button>
+  </h2>
+  <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      É um processo judicial em que a pessoa busca reparação por um sofrimento emocional, psicológico ou ofensa à sua dignidade causado por outra pessoa ou empresa. Não envolve prejuízo financeiro direto, mas sim dor, humilhação, vergonha, angústia, entre outros.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading19">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+      O que são danos materiais?
+    </button>
+  </h2>
+  <div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Danos materiais são prejuízos financeiros reais e comprováveis, como por exemplo: gastos com conserto de um carro após um acidente, despesas médicas, perda de renda, ou qualquer valor que a pessoa teve que pagar por causa do erro de outra.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading20">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+      Posso entrar com a ação mesmo que não tenha testemunhas?
+    </button>
+  </h2>
+  <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Sim, é possível. Embora as testemunhas ajudem, outras provas (como conversas, imagens, documentos, gravações e etc.) podem ser suficientes para fundamentar o pedido.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading21">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+      O que é uma ação de cobrança?
+    </button>
+  </h2>
+  <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      É um processo judicial usado para cobrar uma dívida não paga, quando o devedor não quitou voluntariamente o valor devido, mesmo após tentativas amigáveis. Pode ser utilizada para cobrar valores de contratos, empréstimos, cheques, notas promissórias, prestação de serviços, aluguéis, entre outros.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading22">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+      Quando posso entrar com uma ação judicial após um acidente de trânsito?
+    </button>
+  </h2>
+  <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Você pode entrar com uma ação sempre que tiver sofrido prejuízos materiais ou morais por causa do acidente, como:<br><br>
+      • Danos ao veículo;<br>
+      • Despesas médicas;<br>
+      • Perda de renda;<br>
+      • Sofrimento físico ou psicológico (danos morais);<br>
+      • Morte de familiar (ação de indenização por danos morais e pensão).
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading23">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+      O que é usucapião?
+    </button>
+  </h2>
+  <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Usucapião é uma forma de adquirir a propriedade de um imóvel ou terreno após ocupação prolongada, pacífica e sem oposição, mesmo sem ter escritura. A Justiça reconhece que a posse se tornou propriedade pelo tempo e uso contínuo do bem.
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item shadow mb-3">
+  <h2 class="accordion-header" id="heading24">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+      Quando posso pedir usucapião de um imóvel?
+    </button>
+  </h2>
+  <div id="collapse24" class="accordion-collapse collapse" aria-labelledby="heading24" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      Você pode entrar com a ação de usucapião se:<br><br>
+      • Mora ou usa o imóvel de forma contínua e sem interrupções;<br>
+      • Atua como dono do imóvel, cuidando, reformando e pagando contas;<br>
+      • A posse for pacífica e sem oposição do verdadeiro dono;<br>
+      • Tiver ocupado o imóvel por um determinado período, que pode variar de caso a caso.
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </div>
